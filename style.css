@@ -13,6 +13,9 @@ header{
     top: 0;
 }
 
+span{
+  color: #1B9BFF;
+}
 
 
 #check{
@@ -183,6 +186,11 @@ gap: 20px;
   padding: 40px;
   margin: 20px 0px 40px;
 }
+
+.counter-h1{
+  color: #9bdb56;
+}
+
 .label{
 margin-bottom: 5px;
   font-size: 40px;
@@ -202,4 +210,47 @@ button{
   font-weight: bold;
   font-size: 15px;
 }
-  
+footer{
+  height: 10vh;
+  width: 99%;
+  background-color: #ff0000;
+  display: flex;
+  align-items: center;
+  padding-left: 5%; 
+  color: white;
+  font-weight: bold;
+}  
+
+.rider-div{
+  display: flex;
+  background-color: #FFCC29;
+  padding: 20px;
+  align-items: center;
+
+}
+
+.rider-tex{
+  width: 50%;
+  height: 45vh;
+  align-content: center;
+}
+
+.rider-image{
+  width: 50%;
+  height: 45vh;
+}
+
+.launch-h1{
+  color: white;
+  font-size: 25px;
+}
+
+.trust-h1{
+  color: #ff0000;
+  font-weight: 900;
+}
+  .rider-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
